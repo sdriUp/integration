@@ -1,0 +1,242 @@
+html { 
+  margin:0;
+  padding:0;
+  background: url(images/sgbg.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+}
+
+body {
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.back {
+
+	width: 1020px;
+	height: 1400px;
+
+	background-color: white;
+
+
+
+}
+
+.center {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+#nav {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+#nav a {
+	color:  #FFF;
+	font-family: 'Josefin Sans', sans-serif;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	padding-left: 1em;
+  	padding-right: 1em;
+
+}
+
+#nav a:hover {
+  color: #cfa205;
+}
+
+
+
+#title {
+	width: 100%;
+	height: 260px;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+
+
+	background-color: black;
+
+}
+
+
+	#t1 {
+	/*	display: flex;*/
+		font-size: 133px;
+		font-family: 'Josefin Sans', sans-serif;
+		text-transform: uppercase;
+		color: #cfa205;
+		font-weight: 400;
+	}
+
+	#t2 {
+	/*	display: flex;*/
+		font-size: 18px;
+		font-family: 'Bitter', serif;
+		text-transform: uppercase;
+		color: #cfa205;
+	}
+
+	h3 {
+		font-size: 18px;
+		font-family: 'Bitter', serif;
+		color: #7a7a7a;
+	}
+
+#sociale {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	margin-bottom: 4.30%;
+	background-color: #e8e8e8;
+
+	justify-content: center;
+	align-items: center;
+
+}
+
+@font-face {
+
+    font-family: 'Mono Social Icons Font';
+    src: url('sources/MonoSocialIconsFont-1.10.eot');
+    src: url('sources/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('sources/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('sources/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('sources/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('sources/MonoSocialIconsFont-1.10.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+
+#sociale a {
+	color: #7a7a7a;
+	margin-right: 0.5em;
+    font-size: 175%;
+    text-decoration: none;
+  	text-transform: uppercase;
+}
+
+
+
+
+.mid {
+	display: flex;
+	width: 900px;
+	height: 90px;
+	margin-bottom: 4.30%;
+	text-align: center;
+
+	align-items: center;
+	align-self: center;
+
+/*	background-color: red;*/
+	
+}
+
+.mid h3 {
+	width:100%;
+  	display: flex;
+
+
+}
+
+.under {
+	display: flex;
+	width: 900px;
+
+flex-direction: row;
+flex-wrap: nowrap;
+
+	align-self: center;
+	justify-content: space-between;
+
+	/*background-color: blue;*/
+}
+
+
+	.under h2{
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+	text-transform: uppercase;
+  	padding-top: 1em;
+
+
+
+	}
+
+#stacka {
+	width: 260px;
+	height: 675px;
+	display: flex;
+
+	flex-direction: column;
+
+/*	background-color: black;*/
+
+}
+
+
+	.under img {
+		width: auto;
+		height: 195px;
+		display: flex;
+	}
+
+	.under h3 {
+		width: auto;
+		height: 480px;
+		display: flex;
+	}
+#stackb {
+	width: 260px;
+	height: 675px;
+	display: flex;
+	flex-direction: column;
+
+	/*background-color: red;*/
+
+}
+
+#stackc {
+	width: 260px;
+	height: 675px;
+	display: flex;
+	flex-direction: column;
+
+	/*background-color: purple;
+*/
+}
+
